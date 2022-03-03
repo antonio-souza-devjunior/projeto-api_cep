@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1 class="titulo">Consultar CEP</h1>
+        <a href="https://viacep.com.br/" class="link">ViaCep</a>
+    </header><!-- CABECALHO -->
+
+    <main class="corpo">
+        <div class="linha">
+            <div class="campo">
+                <input type="text" id="cep" class="inputs" required>
+                <label for="cep" class="descricao">Cep</label>
+            </div><!-- CAMPO -->
+
+            <div class="campo">
+                <input type="text" id="logradouro" class="inputs" required>
+                <label for="logradouro" class="descricao">Endereço</label>
+            </div><!-- CAMPO -->
+
+            <div class="campo">
+                <input type="text" id="numero" class="inputs" required>
+                <label for="numero" class="descricao">Número</label>
+            </div><!-- CAMPO -->
+
+        </div><!-- LINHA1 -->
+
+        <div class="linha">
+            <div class="campo">
+                <input type="text" id="bairro" class="inputs" required>
+                <label for="bairro" class="descricao">Bairro</label>
+            </div><!-- CAMPO -->
+
+            <div class="campo">
+                <input type="text" id="cidade" class="inputs" required>
+                <label for="cidade" class="descricao">Cidade</label>
+            </div><!-- CAMPO -->
+
+            <div class="campo">
+                <input type="text" id="estado" class="inputs" required>
+                <label for="estado" class="descricao">Estado</label>
+            </div><!-- CAMPO -->
+
+        </div><!-- LINHA2 -->
+
+    </main><!-- CORPO -->
+
+    <script src="api.js"></script>
+    
+</body>
+</html>
